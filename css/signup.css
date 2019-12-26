@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h4{
+    width: 68px;
+    color:cornflowerblue;
+    background-color: white;
+    text-align: justify;
+}
+form{
+    color: white;
+    text-align: justify;
+}
+#frm{
+    width: 400px;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background-color:lightskyblue;
+}
+@media screen and(max-width: 800px){
+    #frm{
+        min-width: 50%;
+        margin: auto;
+    }
+    form{
+        min-width: 30%;
+        margin: auto;
+    }
+
+
+}

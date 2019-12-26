@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: whitesmoke;
+}
+h1{
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 
+    'Times New Roman', serif;
+
+}
+h3{
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 
+    'Times New Roman', serif;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+#eve{
+    text-align: center;
+    background-color: lightskyblue;
+}
+.all{
+    max-width: 300px;
+    text-align: justify;
+    text-align: center;
+    background-color: magenta;
+    margin: auto;
+}
+.two{
+    max-width: 200px;
+    height: 200px;
+    margin: 5px;
+    margin-left: 250px;
+    border: solid white;
+}
+@media screen and (max-width:800px){
+    .all{
+        min-width: 50%;
+        text-align: center;
+        margin: auto;
+
+    }
+
+    .two{
+        min-width: 10%;
+        text-align: center;
+        margin: 2px;
+        margin-left: 0px;
+    }
+}

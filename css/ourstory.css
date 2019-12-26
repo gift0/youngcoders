@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:whitesmoke ;
+}
+#std{
+    max-width: 600px;
+    background-color: lightskyblue;
+    text-align: justify;
+    padding-top: 30px;
+    margin: auto;
+    border: solid lightskyblue;
+
+}
+h3{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 
+    'Times New Roman', serif;
+    color: blue;
+}
+#frm{
+    max-width:600px;
+    margin: auto;
+    background-color:lightskyblue;
+    text-align: center;
+    border: solid lightskyblue;
+}
+#btn button{
+    color:blue;
+    background-color:whitesmoke;
+    text-align: none;
+}
+@media screen and (max-width: 800px){
+    #std{
+        min-width: 50%;
+        margin: auto;
+    }
+    .igm{
+        min-width: 50%;
+        float: left;
+    }
+
+}
+

@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: whitesmoke;
+}
+h1{
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 
+    'Times New Roman', serif;
+
+}
+h3{
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 
+    'Times New Roman', serif;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+#cap{
+    text-align: center;
+    background-color: lightskyblue;
+}
+.all{
+    max-width: 300px;
+    text-align: justify;
+    text-align: center;
+    background-color: magenta;
+    margin: auto;
+}
+.two{
+    max-width: 200px;
+    border: solid white;
+    height: 200px;
+    margin: 5px;
+    margin-left: 40px;
+}
+@media screen and (max-width: 800px){
+    
+}

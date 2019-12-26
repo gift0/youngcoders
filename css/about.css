@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: lightskyblue;
+}
+
+#abt{
+    background-color: whitesmoke;
+    padding-top: 30px;
+    text-align: justify;
+    text-align: center;
+}
+.all{
+    max-width: 300px;
+    background-color: whitesmoke;
+    text-align: justify;
+    margin: auto;
+
+}
+.three{
+    max-width: 280px;
+    height: 170px;
+    text-align: center;
+    border:solid magenta;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+@media screen and (max-width: 800px){
+
+}
