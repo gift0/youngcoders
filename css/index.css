@@ -142,6 +142,9 @@ p{
         text-align: center;
     
     }
+    body{
+        background-color: whitesmoke;
+    }
     #box{
         text-align: center;
     }
