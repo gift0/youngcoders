@@ -35,21 +35,8 @@ p{
     max-width: 200px;
     height: 200px;
     margin: 5px;
-    margin-left: 250px;
+    margin-left: 40px;
     border: solid white;
 }
 @media screen and (max-width:800px){
-    .all{
-        min-width: 50%;
-        text-align: center;
-        margin: auto;
-
-    }
-
-    .two{
-        min-width: 10%;
-        text-align: center;
-        margin: 2px;
-        margin-left: 0px;
-    }
 }

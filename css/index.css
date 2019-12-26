@@ -27,7 +27,6 @@ body{
     float: right;
     
 }
-
 ul li{ 
     display: inline-block;
     font-family: 'Courier New', Courier, monospace;
@@ -41,13 +40,21 @@ ul li a{
 ul li :hover{
      background-color: whitesmoke;
 }
-
 #con{
     text-align: justify;
     text-align: center;
     color: blue;
     font-family: Cambria, Cochin, Georgia, 
     Times, 'Times New Roman', serif;
+}
+.mgi{
+    width: 1200px;
+    display: inline-block;
+    margin: auto;
+}
+.mgi img{
+    width: 300;
+    margin: auto;
 }
 p{
     color: black;
@@ -63,7 +70,6 @@ p{
     text-decoration: none;
     font-family: Cambria, Cochin, Georgia, Times, 
     'Times New Roman', serif;
-
 }
 .one{
     max-width: 200px;
@@ -112,7 +118,6 @@ p{
     #menu ul li{
         min-width: 10%;
         display: inline-block;
-      
     }
     .mgi{
         display: inline-block;
@@ -134,13 +139,11 @@ p{
         min-width: 50%;
         text-align: center;
         margin: auto;
-
     }
     .one{
         display: inline block;
         min-width: 10%;
         text-align: center;
-    
     }
     body{
         background-color: whitesmoke;
